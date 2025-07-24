@@ -11,15 +11,15 @@
   "permissions": [],
   "networkAccess": {
     "allowedDomains": [
-      "https://vps.sonnylab.com",
-      "wss://vps.sonnylab.com",
+      "https://tvxcopilot.cloud",
+      "wss://tvxcopilot.cloud",
       "ws://localhost:3055"
     ],
     "reasoning": "This is a plugin for Cursor that allows you to connect to a local server",
     "devAllowedDomains": [
       "http://localhost:3055",
       "ws://localhost:3055",
-      "wss://vps.sonnylab.com"
+      "wss://tvxcopilot.cloud"
     ]
   },
   "documentAccess": "dynamic-page"
