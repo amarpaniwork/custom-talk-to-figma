@@ -353,8 +353,8 @@
             AI-assisted design operations. created by
             <a
               class="link"
-              onclick="window.open(`https://github.com/sonnylazuardi`, '_blank')"
-              >Sonny</a
+              onclick="window.open(`https://github.com/amarpaniwork`, '_blank')"
+              >amarpaniwork</a
             >
           </p>
           <p>Version: 1.0.0</p>
@@ -443,7 +443,7 @@
           const useLocalhost = document.getElementById("use-localhost").checked;
           const wsUrl = useLocalhost
             ? `ws://localhost:${port}`
-            : `wss://vps.sonnylab.com`;
+            : `wss://my-custom-server.cloud"`;
 
           state.socket = new WebSocket(wsUrl);
 
@@ -818,7 +818,7 @@
                 ? ["cursor-talk-to-figma-mcp@latest"]
                 : [
                     "cursor-talk-to-figma-mcp@latest",
-                    "--server=vps.sonnylab.com",
+                    "--server=my-custom-server.cloud",
                   ],
             },
           },
